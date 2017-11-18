@@ -12,4 +12,4 @@ Then:
 
 `npm start`
 
-Visit [http://localhost:3000](http://localhost:3000)
+On the IDE, you will get an IP and Port you can load in your browser to see your application.
