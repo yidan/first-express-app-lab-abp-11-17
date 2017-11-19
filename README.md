@@ -29,7 +29,3 @@ Just to be safe, before starting the tests or the server, run `npm install` in y
 You can run the tests with `learn`.
 
 To start your application, type `npm start`. The IDE will give you an IP address and port for your application, locally, your application will be running at `http://localhost:3000`.
-
-Unfortunately for now if you change your code, you have to stop and start the server to reload it.
-
-Let the tests drive you for now!
