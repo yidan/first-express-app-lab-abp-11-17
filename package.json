@@ -16,6 +16,7 @@
     "express-livereload": "0.0.24",
     "mocha": "^4.0.1",
     "mocha-multi": "^0.11.1",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "supervisor": "^0.12.0"
   }
 }
