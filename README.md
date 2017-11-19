@@ -24,6 +24,8 @@ module.exports = app
 
 As you can see, the application is already setup and loaded into the `app` constant. Build your route and response within that file.
 
+Just to be safe, before starting the tests or the server, run `npm install` in your terminal.
+
 You can run the tests with `learn`.
 
 To start your application, type `npm start`. The IDE will give you an IP address and port for your application, locally, your application will be running at `http://localhost:3000`.
