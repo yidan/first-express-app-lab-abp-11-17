@@ -1,15 +1,25 @@
-# Simplest Express Example
+# Your First Express App Lab
 
-To use first clone:
+## Objectives
 
-`git clone git@github.com:aviflombaum/simplest-express-app.git`
+1. Build an Express route responding to a `GET` request.
+2. Send an HTTP response with the text `Hello, World!`
 
-To use run:
+## Instructions
 
-`npm install`
+You are going to be building a single route in an express app setup in `app.js`. The goal is to response to a `GET` request at `/` (the root or homepage of the application) and response with `Hello, World!`.
 
-Then:
+**File: [app.js]()**
+```js
+const express = require('express')
+const app = express()
 
-`npm start`
+// Build Your Route Here
 
-On the IDE, you will get an IP and Port you can load in your browser to see your application.
+
+
+
+module.exports = app
+```
+
+As you can see, the application is already setup and loaded into the `app` constant.
