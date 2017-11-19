@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
-    "start": "NODE_ENV=dev && node server.js"
+    "start": "NODE_ENV=dev && ./node_modules/supervisor/lib/cli-wrapper.js server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "express": "^4.16.2",
     "mocha": "^4.0.1",
     "mocha-multi": "^0.11.1",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "supervisor": "^0.12.0"
   }
 }
